@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
-import manufacturingBg from "/assets/manufacturing-bg.jpg";
+import manufacturingBg from "/assets/manufacturing-bg.webp";
 import { useTranslation } from "react-i18next";
 
 const ManufacturingSection = () => {

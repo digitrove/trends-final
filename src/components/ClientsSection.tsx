@@ -6,14 +6,14 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 // Import your logos here (make sure these images are stored in /assets)
-import AlphaLogo from  "/assets/Alpha-Industries-Logo.png";
-import BeniSport from  "/assets/benisport-logo.png";
-import jrc_logo from   "/assets/jrc-logo.png";
-import JoyluLogo from  "/assets/1joylu-logo.png";
-import MakitoLogo from "/assets/makito-logo.png";
-import vecnalogo from  "/assets/vecna-logo.png"
-import gringo from     "/assets/gringo-logo.png"
-import larson from     "/assets/ole-larson.png"
+import AlphaLogo from  "/assets/Alpha-Industries-Logo.webp";
+import BeniSport from  "/assets/benisport-logo.webp";
+import jrc_logo from   "/assets/jrc-logo.webp";
+import JoyluLogo from  "/assets/1joylu-logo.webp";
+import MakitoLogo from "/assets/makito-logo.webp";
+import vecnalogo from  "/assets/vecna-logo.webp"
+import gringo from     "/assets/gringo-logo.webp"
+import larson from     "/assets/ole-larson.webp"
 
 const ClientsSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
