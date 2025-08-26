@@ -20,6 +20,7 @@ const Header = () => {
     { name: t("clients"), href: "#clients" },
     { name: t("Profile"), href: "#profile" },
     { name: t("contact"), href: "#contact" },
+    { name: t("View Gallery"), href: "#gallery" },
   ];
 
   const scrollToSection = (href: string) => {

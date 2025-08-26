@@ -7,26 +7,26 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 import heroBg from  "/assets/hero-bg.webp";
-import product1 from "/assets/product-1.webp";
-import product2 from "/assets/product-2.webp";
-import product3 from "/assets/product-3.webp";
-import product4 from "/assets/product-4.webp";
-import product5 from "/assets/product-5.webp";
-import product6 from "/assets/product-6.webp";
-import product7 from "/assets/product-7.webp";
-import product8 from "/assets/product-8.webp";
-import product9 from "/assets/product-9.webp";
-import product10 from "/assets/product-10.webp";
-import product11 from "/assets/product-11.webp";
-import product12 from "/assets/product-12.webp";
-import product13 from "/assets/product-13.webp";
-import product14 from "/assets/product-14.webp";
-import product15 from "/assets/product-15.webp";
-import product16 from "/assets/product-16.webp";
-import product17 from "/assets/product-17.webp";
-import product18 from "/assets/product-18.webp";
-import product19 from "/assets/product-19.webp";
-import product20 from "/assets/product-20.webp";
+import product1 from "/assets/1.svg";
+import product2 from "/assets/2.svg";
+import product3 from "/assets/3.svg";
+import product4 from "/assets/4.svg";
+import product5 from "/assets/5.svg";
+// import product6 from "/assets/6.webp";
+// import product7 from "/assets/7.png";
+// // import product8 from "/assets/product-8.webp";
+// import product9 from "/assets/product-9.webp";
+// import product10 from "/assets/product-10.webp";
+// import product11 from "/assets/product-11.webp";
+// import product12 from "/assets/product-12.webp";
+// import product13 from "/assets/product-13.webp";
+// import product14 from "/assets/product-14.webp";
+// import product15 from "/assets/product-15.webp";
+// import product16 from "/assets/product-16.webp";
+// import product17 from "/assets/product-17.webp";
+// import product18 from "/assets/product-18.webp";
+// import product19 from "/assets/product-19.webp";
+// import product20 from "/assets/product-20.webp";
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -38,21 +38,21 @@ const HeroSection = () => {
     { id: 3, image: product3 },
     { id: 4, image: product4 },
     { id: 5, image: product5 },
-    { id: 6, image: product6 },
-    { id: 7, image: product7 },
-    { id: 8, image: product8 },
-    { id: 9, image: product9 },
-    { id: 10, image: product10 },
-    { id: 11, image: product11 },
-    { id: 12, image: product12 },
-    { id: 13, image: product13 },
-    { id: 14, image: product14 },
-    { id: 15, image: product15 },
-    { id: 16, image: product16 },
-    { id: 17, image: product17 },
-    { id: 18, image: product18 },
-    { id: 19, image: product19 },
-    { id: 20, image: product20 },
+    // { id: 6, image: product6 },
+    // { id: 7, image: product7 },
+    // { id: 8, image: product8 },
+    // { id: 9, image: product9 },
+    // { id: 10, image: product10 },
+    // { id: 11, image: product11 },
+    // { id: 12, image: product12 },
+    // { id: 13, image: product13 },
+    // { id: 14, image: product14 },
+    // { id: 15, image: product15 },
+    // { id: 16, image: product16 },
+    // { id: 17, image: product17 },
+    // { id: 18, image: product18 },
+    // { id: 19, image: product19 },
+    // { id: 20, image: product20 },
   ];
 
   useEffect(() => {
@@ -206,7 +206,7 @@ const HeroSection = () => {
       ))}
     </div>
 
-    {/* View Gallery Button */}
+    {/* View Gallery Button
     <div className="absolute bottom-4 right-4">
       <Button
         size="sm"
@@ -216,7 +216,7 @@ const HeroSection = () => {
       >
         View Gallery <ArrowRight className="ml-1 h-4 w-4" />
       </Button>
-    </div>
+    </div> */}
   </div>
 </motion.div>
 

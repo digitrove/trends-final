@@ -10,11 +10,11 @@ const AboutSection = () => {
   const { t } = useTranslation();
 
   const features = [
-    {
-      icon: Globe,
-      title: t("globalPresence"),
-      description: t("globalPresenceDesc"),
-    },
+    // {
+    //   icon: Globe,
+    //   title: t("globalPresence"),
+    //   description: t("globalPresenceDesc"),
+    // },
     {
       icon: Users,
       title: t("expertTeam"),
@@ -76,9 +76,9 @@ const AboutSection = () => {
               <Badge variant="outline" className="text-primary border-primary">
                 14+ {t("yearsExperience")}
               </Badge>
-              <Badge variant="outline" className="text-accent border-accent">
+              {/* <Badge variant="outline" className="text-accent border-accent">
                 {t("globalPresence")}
-              </Badge>
+              </Badge> */}
               <Badge variant="outline" className="text-blue-500">
                 {t("sustainability")}
               </Badge>

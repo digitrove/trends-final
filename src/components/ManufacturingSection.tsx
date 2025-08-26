@@ -9,20 +9,13 @@ const ManufacturingSection = () => {
   const { t } = useTranslation();
 
   const standards = [
-    "ISO 9001:2015 Quality Management",
-    "OEKO-TEX Standard 100",
-    "Global Organic Textile Standard (GOTS)",
-    "Better Cotton Initiative (BCI)",
-    "Fair Trade Certified",
-    "WRAP Certification",
-    "SA8000 Social Accountability",
-    "HIGG Index Compliance",
+    
   ];
 
   return (
-    <section className="section-padding relative overflow-hidden">
+    <section className="">
       {/* ✅ Blurred Background Layer */}
-      <div 
+      {/* <div 
         className="absolute inset-0 z-0 blur-sm"
         style={{
           backgroundImage: `url(${manufacturingBg})`, // ✅ manufacturingBg is an imported image module
@@ -30,11 +23,11 @@ const ManufacturingSection = () => {
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
         }}
-      />
+      /> */}
 
       {/* ✅ Foreground Content */}
-      <div className="container mx-auto px-4 relative z-10">
-        <motion.div
+      <div >
+        {/* <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -51,16 +44,16 @@ const ManufacturingSection = () => {
             </span>{" "}
             {t("manufacturingTitle").split("INTERNATIONAL STANDARDS")[1]}
           </h2>
-        </motion.div>
+        </motion.div> */}
 
-        <motion.div
+        {/* <motion.div
           className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          {standards.map((standard, index) => (
+        > */}
+          {/* {standards.map((standard, index) => (
             <motion.div
               key={index}
               className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6 hover:bg-white/20 transition-all duration-300"
@@ -73,9 +66,9 @@ const ManufacturingSection = () => {
               <h3 className="text-white font-semibold text-center leading-tight">
                 {standard}
               </h3>
-            </motion.div>
-          ))}
-        </motion.div>
+            </motion.div> */}
+          {/* ))}
+        </motion.div> */}
       </div>
     </section>
   );

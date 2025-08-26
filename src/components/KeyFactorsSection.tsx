@@ -22,12 +22,12 @@ const KeyFactorsSection = () => {
       description: t("competitivePricingDesc"),
       gradient: "from-accent to-secondary",
     },
-    {
-      icon: Globe2,
-      title: t("globalSourcingPresence"),
-      description: t("globalSourcingPresenceDesc"),
-      gradient: "from-secondary to-accent",
-    },
+    // {
+    //   icon: Globe2,
+    //   title: t("globalSourcingPresence"),
+    //   description: t("globalSourcingPresenceDesc"),
+    //   gradient: "from-secondary to-accent",
+    // },
   ];
 
   return (
@@ -52,7 +52,7 @@ const KeyFactorsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {factors.map((factor, index) => (
             <motion.div
               key={index}
